@@ -1,0 +1,58 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, #111827, #1e293b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(31, 41, 55, 0.85);
+  color: #f9fafb;
+  padding: 30px;
+  border-radius: 16px;
+  width: 280px;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+
+  text-align: left;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #f3f4f6;
+}
+
+.tag {
+  color: #818cf8;
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+.details {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 10px;
+}
+
+.details p {
+  color: #9ca3af;
+  font-size: 13px;
+  margin: 10px 0;
+}
