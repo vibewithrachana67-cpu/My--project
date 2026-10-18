@@ -56,3 +56,20 @@ h2 {
   font-size: 13px;
   margin: 10px 0;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-wrapper {
+  width: 100%;
+  max-width: 900px; / Adjust if needed so two cards fit /
+  display: flex;
+  gap: 20px;
+}
+/ Step 3: Prevent image overflow /
+img {
+  / width: 1000px; /
+  max-width: 100%;
+  height: auto;
+}
